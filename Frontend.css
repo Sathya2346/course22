@@ -1,0 +1,157 @@
+.Home{
+    color: White;
+    background-image: url('bg5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.bar>nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    padding-right: 10px;
+    width:  900px;
+    height: 10vh;
+    margin: 50px;
+    margin-left: 170px;
+    margin-top: 10px;
+}
+.home-content>h1{
+    font-family: marcellus;
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 160px;
+}
+.home-content{
+    margin-top: 100px;
+    text-align: center;
+}
+
+h3,h1{
+    font-family: marcellus,cursive;
+    font-weight: 400;
+    font-size:  50px;
+    line-height: 60px;
+}
+p{
+    font-family: lato,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 29px;
+}
+.frontent-about{
+    height: 80vh;
+    color: #4d4d5c;
+    margin-top: 100px;
+}
+.skill{
+    height: 110vh;
+    color: #4d4d5c;
+    margin-top: 100px;
+    border-bottom:2px double black ;
+    background-color: #E47FB7;
+    padding-top: 100px;
+}
+.colspan{
+    width: 300px;
+    margin-left: 50px;
+}
+.technical{
+    height: auto;
+    color: #4d4d5c;
+    margin-top: 100px;
+}
+.techone{
+    display: inline-block;
+    padding: 12px;
+    width: 1000px;
+    color: bisque;
+
+}
+.techone>h4{
+    background-color:#FFA500;
+    
+}
+.techtwo{
+    color: Black;
+    display: none;
+    background-color:#F5CDC8;
+    padding: 12px;
+    width: 800px;
+    margin-left: 200px;
+
+}
+.techone:hover .techtwo{
+    display: inline-block;
+}
+.Features{
+    height: 200vh;
+    color: #4d4d5c;
+    margin-top: 100px;
+    background-color: #E47FB7;
+    padding-top: 50px;
+}
+.Certificate{
+    margin-top: 100px;
+}
+.foot{
+    margin-top: 200px;
+    background-image: url('Skillbg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.foot-head{
+    margin-left: 500px;
+}
+.foot-content{
+    display: flex;
+    color: white;
+    color: black;
+}
+.foot-content1-1{
+    margin-top: 100px;
+    height: 50vh;
+    width: 400px;
+    border-right: 1px solid #606060;
+    padding-left: 80px;
+    
+}
+.foot-content1-2{
+    margin-top: 100px;
+    width: 400px;
+    height: 50vh;
+    padding-left: 50px;
+}
+.foot-content1-3{
+    margin-top: 100px;
+    width: 400px;
+    height: 50vh;
+}
+.foot-content1-3>a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.foot-content1-4{
+    margin-top: 100px;
+    width: 400px;
+    height: 50vh;
+}
+.foot-icon>a{
+    background-color:#606060;
+    height: auto;
+    padding: 8px;
+    padding-top: 15px;  
+}
+.foot-icon>a:hover{
+    background-color: #E7272D;
+}
